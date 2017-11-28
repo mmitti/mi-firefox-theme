@@ -1,0 +1,18 @@
+{
+    "description": "mmitti firefox theme",
+    "homepage_url": "https://github.com/mmitti/mi-firefox-theme",
+    "manifest_version": 2,
+    "name": "mmitti firefox theme",
+    "permissions": [
+        "theme"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "version": "1.0",
+    "applications": {
+        "gecko": {
+            "strict_min_version": "55.0"
+        }
+    }
+}
